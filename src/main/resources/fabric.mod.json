@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bsmp-anvil-fix",
+  "version": "${version}",
+
+  "name": "BSMP Anvil Fix",
+  "description": "",
+  "authors": [
+    "Ottomated"
+  ],
+  "contact": {},
+
+  "license": "CC0-1.0",
+  "icon": "assets/bsmp-anvil-fix/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ottomated.anvilfix.AnvilFixMod"
+    ]
+  },
+  "mixins": [
+    "bsmp-anvil-fix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  }
+}
